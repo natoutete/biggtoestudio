@@ -18,7 +18,9 @@
 body {
     margin: 0 0 215px;
 	/* bottom = footer height */
-	background: ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
@@ -80,7 +82,7 @@ footer {
 }
 
 .foot {
-	color: rgb(28 30 32);
+	color: white;
 	padding: 15px;
 	font-size: 12pt;
 	position: relative;
@@ -88,6 +90,9 @@ footer {
 
 /*SOCIAL_LINKS*/
 
+#social_links a{
+	padding: 0 10px ;
+}
 
 
 
@@ -102,6 +107,8 @@ footer {
 
 
 @media only screen and (max-width: 800px) {
+main ;
+
 	.responsive {
 		width: 100%;
 	}
