@@ -39,6 +39,7 @@ main {
 
 
 
+<<<<<<< HEAD
 
 .landing a{
 	width: 100%;
@@ -58,6 +59,27 @@ main {
 
 /*NAVIGATION BAR RULES*/
 
+=======
+
+.landing a{
+	width: 100%;
+	text-align: center;
+	top: 100px;
+	color: #FFD262;
+
+}
+
+.responsive {
+	width: 100%;
+}
+
+
+/*===========================================================*/
+
+
+/*NAVIGATION BAR RULES*/
+
+>>>>>>> 2f163c5de415a16948216a76b90ace226b5ce14b
 
 /*===========================================================*/
 
