@@ -5,32 +5,35 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style-type: none;
-	font-family: "Poppins" Raleway, Roboto, "Roboto Condensed", "Open Sans", Futura, Lato, Arial, sans-serif;
+	font-family: Poppins, Roboto, "Roboto Condensed", "Open Sans", Futura, Lato, Arial, sans-serif;
   }
 
 	html {
     position: relative;
-    min-height: 100%;
+    height: 100%;
+		height: 100%;
 }
 /*===========================================================*/
 
 body {
-    margin: 0 0 215px;
+	background-image: url("../images/underconstruction02.jpg");
+	min-height: 100%;
+	width: 100%;
 	/* bottom = footer height */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+header {
+}
 
 .wrapper {
 	width: 100%;
 	height: 100%;
-	display: block;
 	padding: 0;
-	margin: 0;
 	box-sizing: border-box;
-	
+
 }
 
 main {
@@ -38,15 +41,21 @@ main {
 }
 
 
+.landing {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
 
-<<<<<<< HEAD
-
-.landing a{
+.landing a {
+	display: block;
 	width: 100%;
 	text-align: center;
-	top: 100px;
 	color: #FFD262;
-
+	position: relative;
+	font-weight: bold;
 }
 
 .responsive {
@@ -59,19 +68,7 @@ main {
 
 /*NAVIGATION BAR RULES*/
 
-=======
 
-.landing a{
-	width: 100%;
-	text-align: center;
-	top: 100px;
-	color: #FFD262;
-
-}
-
-.responsive {
-	width: 100%;
-}
 
 
 /*===========================================================*/
@@ -79,7 +76,7 @@ main {
 
 /*NAVIGATION BAR RULES*/
 
->>>>>>> 2f163c5de415a16948216a76b90ace226b5ce14b
+
 
 /*===========================================================*/
 
@@ -128,10 +125,13 @@ footer {
 
 
 @media only screen and (max-width: 800px) {
-main ;
 
 	.responsive {
 		width: 100%;
+	}
+
+	body {
+		background-image: url("../images/website_uc_phone-01.jpg");
 	}
 
 }
