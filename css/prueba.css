@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.sticky {
+    top: 0px;
+    position: sticky;
+    
+}
+
+div.fuck {
+   
+    margin: 5px;
+    border: 1px solid #ccc;
+    #float: left;
+    width: 33.33%;
+}
+
+.gallery img {
+    width: 100%;
+  }
